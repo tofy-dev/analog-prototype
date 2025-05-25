@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "analog-keeb")(type "KiCad")(uri "${KIPRJMOD}/analog-keeb.kicad_sym")(options "")(descr ""))
+  (lib (name "gateron-1.00u")(type "KiCad")(uri "${KIPRJMOD}/gateron-1.00u.kicad_sym")(options "")(descr ""))
 )
