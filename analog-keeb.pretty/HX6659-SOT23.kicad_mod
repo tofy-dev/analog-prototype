@@ -99,8 +99,8 @@
 		(uuid "6594ba9b-3633-46cf-bc1c-86c29488c5bf")
 	)
 	(fp_rect
-		(start -1.475 -1.4)
-		(end 1.475 1.4)
+		(start -1.975 -1.9)
+		(end 1.975 1.9)
 		(stroke
 			(width 0.05)
 			(type solid)

@@ -6194,20 +6194,20 @@
 		(uuid "ff16eba9-9250-4e01-b917-4d008b002b2f")
 	)
 	(no_connect
-		(at 195.58 64.77)
-		(uuid "34e6ea54-16c8-4167-ab14-4ad89ce1bc99")
-	)
-	(no_connect
 		(at 60.96 77.47)
 		(uuid "6586d366-0b18-472a-9e4a-dbf1a2d9512d")
 	)
 	(no_connect
-		(at 60.96 74.93)
-		(uuid "da56f490-ba58-43e2-b8be-fb2b574b24a5")
+		(at 195.58 64.77)
+		(uuid "814a17b1-99e4-4b22-a444-6094d89c424e")
 	)
 	(no_connect
-		(at 195.58 59.69)
-		(uuid "fa5c5942-016b-4d5d-abcd-b2b024e89c2c")
+		(at 170.18 59.69)
+		(uuid "9b6f17d5-ba66-4610-907f-b341945e40c4")
+	)
+	(no_connect
+		(at 60.96 74.93)
+		(uuid "da56f490-ba58-43e2-b8be-fb2b574b24a5")
 	)
 	(wire
 		(pts
@@ -10201,6 +10201,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 138.43) (xy 182.88 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e163acf8-d2ee-477a-b4a9-2cd511829842")
+	)
+	(wire
+		(pts
 			(xy 405.13 125.73) (xy 405.13 137.16)
 		)
 		(stroke
@@ -11365,22 +11375,22 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 170.18 59.69 180)
+		(at 195.58 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "69595691-839a-40db-9933-bf4632c5c4b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.3524 59.69 0)
+			(at 201.4076 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -18026,6 +18036,72 @@
 			(project "analog-keeb-proto"
 				(path "/0f7d2ff7-19be-4cc1-8cf4-df7d811021d2"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 182.88 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54a3638c-e05c-48db-a798-3f8af229bf90")
+		(property "Reference" "#PWR042"
+			(at 182.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 182.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 182.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97bd685f-aed5-4798-a709-b37d8989f5ab")
+		)
+		(instances
+			(project "analog-keeb-proto"
+				(path "/0f7d2ff7-19be-4cc1-8cf4-df7d811021d2"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
